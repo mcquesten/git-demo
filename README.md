@@ -11,7 +11,7 @@ Check the status of files in the repository:
 ```git status```
 
 ## Repository Setup (using GitHub CLI)
-Assuming alreadying logged in with ```gh auth login```
+Assuming already logged in with ```gh auth login```
 
 ```
 git init
