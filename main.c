@@ -3,6 +3,6 @@
 #include <string.h>
 
 int main() {
-	printf("Hello, World\n");
+	printf("Hello, Nasty Merge Conflict!!!\n");
 	return 0;
 }
