@@ -1,6 +1,6 @@
 # Git Cheat Sheet
 
-## Repository Setup
+## Repository Setup (using GitHub website)
 Initialize a new Git repository:
 ```git init```
 
@@ -9,6 +9,16 @@ Clone an existing repository:
 
 Check the status of files in the repository:
 ```git status```
+
+## Repository Setup (using GitHub CLI)
+Assuming alreadying logged in with ```gh auth login```
+
+```
+git init
+git add .
+git commit -m "Initial commit"
+gh repo create git-demo --public --source=. --push
+```
 
 ## Basic Workflow
 Stage files for commit:
